@@ -1,0 +1,19 @@
+
+public class HelloJava4 {
+
+	public static void main(String[] args) {
+		// "À±ÇöÃ¶"-> ¹®ÀÚ¿­(ÅØ½ºÆ®)
+		System.out.println("ÀÌ¸§:"+"À±ÇöÃ¶");
+		
+		// 37-> Á¤¼ö
+		System.out.println("³ªÀÌ:" + 37);
+		System.out.println("³»³â³ªÀÌ:"+(37 + 1));
+		
+		// 10.5->½Ç¼ö
+		System.out.println("Å°:" + 173.4 + "cm");
+		
+		//'a', 'È«'
+		System.out.println('À±');
+	}
+
+}

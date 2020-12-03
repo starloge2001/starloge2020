@@ -1,0 +1,27 @@
+package ex1;
+
+public class ex2 {
+
+	public static void main(String[] args) {
+		
+		int k;
+		int e;
+		int m;
+		int s;
+		
+		k = 90;
+		e = 80;
+		m = 70;
+		s = 60;
+		
+		int a;
+		double p;
+		a = k+e+m+s;
+		p = a / 4.0;
+		
+		System.out.println("총점 : " + a);
+		System.out.println("평균 : " + p);
+				
+	}
+
+}

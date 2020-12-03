@@ -1,0 +1,16 @@
+package ex1;
+
+import java.util.Scanner;
+
+public class ex5_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double PI = 3.14;
+		Scanner sc = new Scanner(System.in);
+		double r = sc.nextInt();
+		double sum = r * r * PI;
+		System.out.println("원의 면적 : " + sum);
+	}
+
+}

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class variable6 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자 하나를 입력하시오 : ");
+		int num1 = sc.nextInt();
+		int num2
+		if(num1 % 2 == 0) {
+			System.out.println("짝수입니다.");
+		}
+		else {
+			System.out.println("홀수입니다.");
+		}
+		
+	}
+
+}

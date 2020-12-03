@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Variable8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		int b;
+		int c;
+		int d;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("넣으실 지폐금액을 입력하세요.");
+		int f = nextInt();
+		a = f / 500;
+		f = f % 
+		
+	}
+
+	private static int nextInt() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

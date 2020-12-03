@@ -1,0 +1,14 @@
+
+public class Variable4 {
+
+	public static void main(String[] args) {
+		byte b = 127;
+		int i = 100;
+		
+		// 타입 변환 (형변환, 타입 캐스팅)
+		// b가 자동으로 int 타입으로 변환
+		System.out.println(b + i);
+
+	}
+
+}

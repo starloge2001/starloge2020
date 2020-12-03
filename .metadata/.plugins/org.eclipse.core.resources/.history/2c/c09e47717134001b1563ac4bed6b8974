@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Variable8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		int b;
+		int c;
+		int d;
+		Scanner sc = new Scanner(System.in);
+		int m = sc.nextInt();
+		a = m / 500;
+		int e = m % 500;
+		b = e / 100;
+		int f = e % 100;
+		c = f / 50;
+		int g = e % 50;
+		d = g / 10;
+		int h = g % 10;
+		String l = "----------------------"
+				
+		
+	}
+
+}
+
+
+

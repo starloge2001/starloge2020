@@ -1,0 +1,14 @@
+
+public class Variable3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte num = 'A';
+		int result;
+		
+		short char1 = 'B';
+		char char2 = 66;
+		long num2 = 9876543210;
+	}
+
+}

@@ -1,0 +1,10 @@
+package helloJava3;
+
+public class helloJava3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

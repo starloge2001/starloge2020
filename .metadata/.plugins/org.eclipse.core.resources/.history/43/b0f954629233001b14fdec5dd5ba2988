@@ -1,0 +1,10 @@
+
+public class HelloJava4 {
+
+	public static void main(String[] args) {
+		//"À±ÇöÃ¶"-> ¹®ÀÚ¿­(ÅØ½ºÆ®)
+		System.out.println("À±ÇöÃ¶");
+		
+	}
+
+}

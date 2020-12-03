@@ -1,0 +1,37 @@
+package ex1;
+
+public class ex5 {
+
+	public static void main(String[] args) {
+		
+		double PI = 3.14;
+		double r ;
+		r = 5;
+		System.out.println("원의 면적 : " + r*r*PI);
+		
+		int k;
+		int e;
+		int m;
+		int s;
+		
+		k = 70;
+		e = 83;
+		m = 90;
+		s = 88;
+		
+		System.out.println("국어 : " + k);
+		System.out.println("영어 : " + e);
+		System.out.println("수학 : " + m);
+		System.out.println("과학 : " + s);
+		
+		int a;
+		double p;
+		a = k+e+m+s;
+		p = a / 4;
+		
+		System.out.println("총점 : " + a);
+		System.out.println("평균 : " + p);
+				
+	}
+
+}

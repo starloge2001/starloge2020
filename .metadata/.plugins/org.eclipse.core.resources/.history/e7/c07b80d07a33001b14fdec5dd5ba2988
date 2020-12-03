@@ -1,0 +1,12 @@
+package helloJava;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("이름 : 윤현철");
+System.out.println("나이 : 37살");
+System.out.println("주소 : 대구 북구 산격동");
+	}
+
+}

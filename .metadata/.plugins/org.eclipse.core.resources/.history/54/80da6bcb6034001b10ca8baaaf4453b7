@@ -1,0 +1,35 @@
+package ex1;
+
+import java.util.LinkedList;
+
+
+public class ex5 {
+
+	public static void main(String[] args) {
+		
+		double PI = 3.14;
+		double r ;
+		r = 5;
+		System.out.println("원의 면적 : " + r*r*PI);
+		
+		int k;
+		int e;
+		int m;
+		int s;
+		
+		k = 70;
+		e = 83;
+		m = 90;
+		s = 88;
+		
+		int a;
+		double p;
+		a = k+e+m+s;
+		p = a / 4.0;
+		
+		System.out.println("총점 : " + a);
+		System.out.println("평균 : " + p);
+				
+	}
+
+}

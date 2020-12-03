@@ -1,0 +1,12 @@
+
+public class Variable5 {
+
+	public static void main(String[] args) {
+		
+		double PI = 3.14;
+		double r = 3;
+		System.out.println(r*r*PI);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class HelloJava4 {
+
+	public static void main(String[] args) {
+		// "À±ÇöÃ¶"-> ¹®ÀÚ¿­(ÅØ½ºÆ®)
+		System.out.println("À±ÇöÃ¶");
+		// 37-> Á¤¼ö
+		System.out.println(37);
+		System.out.println("³ªÀÌ:" + 100);
+		
+	}
+
+}

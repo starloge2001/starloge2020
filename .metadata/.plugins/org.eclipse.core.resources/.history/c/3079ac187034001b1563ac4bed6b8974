@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Variable8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		int b;
+		int c;
+		int d;
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+
+	
+}

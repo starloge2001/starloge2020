@@ -1,0 +1,13 @@
+
+public class HelloJava4 {
+
+	public static void main(String[] args) {
+		// "윤현철"-> 문자열(텍스트)
+		System.out.println("이름:"+"윤현철");
+		// 37-> 정수
+		System.out.println("나이:" + 37);
+		System.out.println("내년나이:"+37 + 1);
+		
+	}
+
+}
