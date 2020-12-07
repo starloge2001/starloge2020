@@ -1,6 +1,6 @@
-package ex1;
+package ex001;
 
-public class ex1 {
+public class ex001 {
 
 	public static void main(String[] args) {
 		final double PI = 3.14;

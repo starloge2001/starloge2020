@@ -1,7 +1,7 @@
-package ex1;
+package ex001;
 
 import java.util.Scanner;
-public class ex5_2 {
+public class ex005_2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

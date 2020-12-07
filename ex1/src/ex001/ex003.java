@@ -1,6 +1,6 @@
-package ex1;
+package ex001;
 
-public class ex3 {
+public class ex003 {
 
 	public static void main(String[] args) {
 		

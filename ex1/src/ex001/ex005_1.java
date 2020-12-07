@@ -1,8 +1,8 @@
-package ex1;
+package ex001;
 
 import java.util.Scanner;
 
-public class ex5_1 {
+public class ex005_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
