@@ -1,7 +1,6 @@
-package ex001;
-
 import java.util.Scanner;
-public class ex005_2 {
+
+public class Ex005_2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -21,7 +20,7 @@ public class ex005_2 {
 		
 		System.out.println("총점 : " + a);
 		System.out.println("평균 : " + p);
-
+		sc.close();
 	}
 
 }

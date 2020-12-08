@@ -1,8 +1,6 @@
-package ex001;
-
 import java.util.Scanner;
 
-public class ex009 {
+public class Ex009 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +16,7 @@ public class ex009 {
 		else {
 			System.out.println(y + "년은 윤년이 아닙니다.");
 		}
+		sc.close();
 	}
 
 }

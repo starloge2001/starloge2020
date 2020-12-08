@@ -1,8 +1,6 @@
-package ex001;
-
 import java.util.Scanner;
 
-public class ex007 {
+public class Ex007 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,6 +18,7 @@ public class ex007 {
 		else {
 			System.out.println("num1과 num2는 같다");
 		}
+		sc.close();
 	}
 
 }

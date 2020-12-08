@@ -1,8 +1,6 @@
-package ex001;
-
 import java.util.Scanner;
 
-public class ex005_1 {
+public class Ex005_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,6 +10,7 @@ public class ex005_1 {
 		double PI = 3.14;
 		double sum = r * r * PI;
 		System.out.println("원의 면적 : " + sum);
+		sc.close();
 	}
 
 }

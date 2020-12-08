@@ -1,17 +1,15 @@
-package ex001;
-
 import java.util.Scanner;
 
-public class ex010 {
+public class Ex010 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("국어 점수를 입력하시오 :");
+		System.out.print("국어 점수를 입력하시오 : ");
 		int k = sc.nextInt();
-		System.out.println("영어 점수를 입력하시오 :");
+		System.out.print("영어 점수를 입력하시오 : ");
 		int e = sc.nextInt();
-		System.out.println("수학 점수를 입력하시오 :");
+		System.out.print("수학 점수를 입력하시오 : ");
 		int m = sc.nextInt();
 		
 		int a;
@@ -40,6 +38,7 @@ public class ex010 {
 		else {
 			System.out.println("학점은 F입니다.");
 		}
+		sc.close();
 
 	}
 

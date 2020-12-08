@@ -1,8 +1,6 @@
-package ex001;
-
 import java.util.Scanner;
 
-public class ex006 {
+public class Ex006 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,6 +14,7 @@ public class ex006 {
 		else {
 			System.out.println("입력한 숫자는 홀수 입니다.");
 		}
+		sc.close();
 	}
 
 }

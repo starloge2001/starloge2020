@@ -1,8 +1,6 @@
-package ex001;
-
 import java.util.Scanner;
 
-public class ex008 {
+public class Ex008 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,7 +21,7 @@ public class ex008 {
 			System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
 		}
 		else {System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
-	
 		}
+		sc.close();
 	}	
 }
