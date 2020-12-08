@@ -17,7 +17,7 @@ public class Variable7 {
 		System.out.println("최대값은 " + c +" 입니다.");
 		System.out.println("최소값은 " + d +" 입니다.");
 		
-		
+		sc.close();
 	}
 
 }

@@ -29,6 +29,7 @@ public class Variable8 {
 		System.out.println("십원 갯수  :" + d + "개");
 		System.out.println("바꾸지 못한 잔돈 :" + e + "원");
 		System.out.println(line);
+		sc.close();
 	}
 
 }

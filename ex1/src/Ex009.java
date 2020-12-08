@@ -10,7 +10,7 @@ public class Ex009 {
 		int a = y % 4;
 		int b = y % 100;
 		int c = y % 400;
-		if ((a == 0 && b > 0)|| c == 0) {
+		if ((a == 0 && b != 0) || c == 0) {
 			System.out.println(y + "년은 윤년입니다.");
 		}
 		else {

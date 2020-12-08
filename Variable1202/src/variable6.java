@@ -10,6 +10,7 @@ public class variable6 {
 		num1 = num1 % 2;
 		String a = (num1 > 0) ? "홀수" : "짝수";
 		System.out.println(a);
+		sc.close();
 		}
 		
 	}
