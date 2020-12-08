@@ -24,5 +24,4 @@ public class Ex017 {
 		System.out.println(num1 + " ~ " + num2 + "까지의 합 : " + sum);
 		sc.close();
 	}
-
 }
