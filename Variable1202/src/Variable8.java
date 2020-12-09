@@ -4,10 +4,11 @@ public class Variable8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a;
-		int b;
-		int c;
-		int d;
+		int a = 0;
+		int b = 0;
+		int c = 0;
+		int d = 0;
+		
 		System.out.println("교환할 금액을 입력하세요");
 		Scanner sc = new Scanner(System.in);
 		int m = sc.nextInt();

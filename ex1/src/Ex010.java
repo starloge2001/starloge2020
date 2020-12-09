@@ -5,6 +5,9 @@ public class Ex010 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		System.out.println("-------------------");
+		System.out.println(" 학점 관리 프로그램 1.0 ");
+		System.out.println("-------------------");
 		System.out.print("국어 점수를 입력하시오 : ");
 		int k = sc.nextInt();
 		System.out.print("영어 점수를 입력하시오 : ");
@@ -12,11 +15,9 @@ public class Ex010 {
 		System.out.print("수학 점수를 입력하시오 : ");
 		int m = sc.nextInt();
 		
-		int a;
-		double p;
-		a = k+e+m;
-		p = a / 3.0;
-		
+		int a = k+e+m;
+		double p = a / 3.0;
+				
 		System.out.println("총점 : " + a);
 		System.out.println("평균 : " + p);
 		

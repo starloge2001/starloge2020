@@ -5,7 +5,10 @@ public class Ex006 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자를 입력 하세요 : ");
+		System.out.println("-------------------");
+		System.out.println(" 홀짝 판단 프로그램 1.0 ");
+		System.out.println("-------------------");
+		System.out.print("숫자를 입력 하세요 : ");
 		int num1 = sc.nextInt();
 		String a;
 		num1 = num1 / 2;

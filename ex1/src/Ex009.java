@@ -5,6 +5,9 @@ public class Ex009 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		System.out.println("-------------------------");
+		System.out.println(" 년도별 윤년 구분 프로그램 1.0 ");
+		System.out.println("-------------------------");
 		System.out.println("년도를 입력 하세요 : ");
 		int y = sc.nextInt();
 		int a = y % 4;

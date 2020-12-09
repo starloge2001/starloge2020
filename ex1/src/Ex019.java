@@ -9,7 +9,7 @@ public class Ex019 {
 		int a = 1;
 		for (int b = a; b < 10; b++) {
 			for(int c = a + 1; c < 10; c++) {
-				System.out.print(c + " * " + b + " = " + (b * c) + "   ");
+				System.out.print(c + " * " + b + " = " + (b * c) + "	");
 			}
 			System.out.println();
 		}

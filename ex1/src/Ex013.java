@@ -38,7 +38,7 @@ public class Ex013 {
 		int b = s.nextInt();
 		switch (a) {
 		case 1 :
-			if (b < 6000) {
+			if (b <= 6000) {
 				System.out.println("금액이 모자랍니다.");
 				break;
 			}
@@ -47,7 +47,7 @@ public class Ex013 {
 				break;
 			}
 		case 2 :
-			if (b < 5000) {
+			if (b <= 5000) {
 				System.out.println("금액이 모자랍니다.");
 				break;
 			}
@@ -56,7 +56,7 @@ public class Ex013 {
 				break;
 			}
 		case 3 :
-			if (b < 4500) {
+			if (b <= 4500) {
 				System.out.println("금액이 모자랍니다.");
 				break;
 			}
@@ -65,7 +65,7 @@ public class Ex013 {
 				break;
 			}
 		case 4 :
-			if (b < 4500) {
+			if (b <= 4500) {
 				System.out.println("금액이 모자랍니다.");
 				break;
 			}
@@ -74,7 +74,7 @@ public class Ex013 {
 				break;
 			}
 		default :
-			if (b < 4500) {
+			if (b <= 4500) {
 				System.out.println("금액이 모자랍니다.");
 			}
 			else {
