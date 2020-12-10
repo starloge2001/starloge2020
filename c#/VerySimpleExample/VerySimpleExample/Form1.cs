@@ -36,7 +36,7 @@ namespace VerySimpleExample
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //내가 지정한 Interval에 한번씩 동작
+            //내가 지정한 Interval에 한번씩 동작!
             label_second.Text = countTime.ToString();
             countTime++;
         }
