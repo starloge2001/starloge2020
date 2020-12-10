@@ -40,12 +40,7 @@ namespace VerySimpleExample
             label_second.Text = countTime.ToString();
             countTime++;
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Dispose();
-        }
-
+              
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.naver.com");
