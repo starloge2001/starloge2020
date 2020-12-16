@@ -14,30 +14,20 @@ public class Ex4_1 {
 			System.out.print("2. 두번째 숫자를 입력하세요 => ");
 			int b = s.nextInt();
 		
-			if (a>b) {
-				for(int i = b;i<=a; i++) {
+			if (a<b) {
+				for(int i = a;i<=b; i++) {
 					sum = sum + i;
 				}
-			}
-			else if (a<b) {
-				for(int i =a; i<=b; i++) {
-					sum = sum + i;
-				}
-			}
-			else if (a==b) {
-				System.out.println("같은 수를 입력하셧습니다. 다시 입력하십시오.");
-				continue;
-			}
-			
-			if(a<b) {
-				System.out.printf("%d ~ %d까지의 합 : %d",a,b,sum);
 			}
 			else {
-				System.out.printf("%d ~ %d까지의 합 : %d",b,a,sum);
+				System.out.println("잘못 입력하셧습니다. 다시 입력하십시오.");
+				continue;
 			}
+			System.out.printf("%d ~ %d까지의 합 : %d",a,b,sum);
+			s.close();
 			break;
 		}
-		s.close();
+		
 	}
 
 }

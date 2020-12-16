@@ -20,24 +20,12 @@ public class Ex4_3 {
 					i++;
 				}while(i<=b);
 			}
-			else if (a>b) {
-				i = b;
-				do {
-					sum = sum +i;
-					i++;
-				}while(i<=a);
-			}
-			else if (a==b) {
-				System.out.println("같은 수를 입력하셧습니다. 다시 입력하십시오.");
+			
+			else{
+				System.out.println("잘못 입력하셧습니다. 다시 입력하십시오.");
 				continue;
 			}
-			
-			if(a<b) {
-				System.out.printf("%d ~ %d까지의 합 : %d",a,b,sum);
-			}
-			else {
-				System.out.printf("%d ~ %d까지의 합 : %d",b,a,sum);
-			}
+			System.out.printf("%d ~ %d까지의 합 : %d",a,b,sum);
 			s.close();
 			break;
 		}
