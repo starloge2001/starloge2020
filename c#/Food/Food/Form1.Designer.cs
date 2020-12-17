@@ -31,7 +31,7 @@ namespace Food
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.Sidepanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -44,7 +44,6 @@ namespace Food
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -52,6 +51,8 @@ namespace Food
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.mySecondCustmControl1 = new Food.MySecondCustmControl();
+            this.firstCustomControl1 = new Food.FirstCustomControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,7 +61,7 @@ namespace Food
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.Sidepanel);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -71,16 +72,16 @@ namespace Food
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(239, 589);
+            this.panel1.Size = new System.Drawing.Size(239, 672);
             this.panel1.TabIndex = 0;
             // 
-            // panel4
+            // Sidepanel
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel4.Location = new System.Drawing.Point(0, 155);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 45);
-            this.panel4.TabIndex = 4;
+            this.Sidepanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.Sidepanel.Location = new System.Drawing.Point(0, 155);
+            this.Sidepanel.Name = "Sidepanel";
+            this.Sidepanel.Size = new System.Drawing.Size(10, 45);
+            this.Sidepanel.TabIndex = 4;
             // 
             // button6
             // 
@@ -156,6 +157,7 @@ namespace Food
             this.button2.Text = "            Sale-in";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button13
             // 
@@ -163,7 +165,7 @@ namespace Food
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(0, 554);
+            this.button13.Location = new System.Drawing.Point(0, 637);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(35, 35);
             this.button13.TabIndex = 4;
@@ -185,6 +187,7 @@ namespace Food
             this.button1.Text = "            Home";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -192,7 +195,7 @@ namespace Food
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(239, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(880, 12);
+            this.panel2.Size = new System.Drawing.Size(876, 12);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -236,15 +239,6 @@ namespace Food
             this.pictureBox1.Size = new System.Drawing.Size(126, 71);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(687, 179);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 21);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
             // 
             // label4
             // 
@@ -342,11 +336,29 @@ namespace Food
             this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button12.UseVisualStyleBackColor = true;
             // 
+            // mySecondCustmControl1
+            // 
+            this.mySecondCustmControl1.Location = new System.Drawing.Point(291, 159);
+            this.mySecondCustmControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.mySecondCustmControl1.Name = "mySecondCustmControl1";
+            this.mySecondCustmControl1.Size = new System.Drawing.Size(755, 513);
+            this.mySecondCustmControl1.TabIndex = 6;
+            // 
+            // firstCustomControl1
+            // 
+            this.firstCustomControl1.Location = new System.Drawing.Point(291, 155);
+            this.firstCustomControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.firstCustomControl1.Name = "firstCustomControl1";
+            this.firstCustomControl1.Size = new System.Drawing.Size(744, 517);
+            this.firstCustomControl1.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 589);
+            this.ClientSize = new System.Drawing.Size(1115, 672);
+            this.Controls.Add(this.mySecondCustmControl1);
+            this.Controls.Add(this.firstCustomControl1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button12);
@@ -354,7 +366,6 @@ namespace Food
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -379,7 +390,7 @@ namespace Food
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel Sidepanel;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
@@ -390,7 +401,6 @@ namespace Food
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
@@ -398,6 +408,8 @@ namespace Food
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private FirstCustomControl firstCustomControl1;
+        private MySecondCustmControl mySecondCustmControl1;
     }
 }
 

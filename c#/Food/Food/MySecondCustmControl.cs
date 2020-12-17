@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Food
 {
-    public partial class FirstCustomControl : UserControl
+    public partial class MySecondCustmControl : UserControl
     {
-        public FirstCustomControl()
+        public MySecondCustmControl()
         {
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
