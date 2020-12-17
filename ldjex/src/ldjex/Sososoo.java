@@ -21,7 +21,7 @@ public class Sososoo {
 		System.out.println(d * a + "(4)");
 		System.out.println(c * a + "(5)");
 		System.out.println(b * a + "(6)");
-		
+		sc.close();
 	}
 
 	
