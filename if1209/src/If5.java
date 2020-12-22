@@ -45,6 +45,7 @@ public class If5 {
 				System.out.println("비겼습니다.");
 			}
 		}
+		s.close();
 	}
 
 }

@@ -25,6 +25,7 @@ public class Ex030 {
 			e=40;
 		}
 		System.out.println((a+b+c+d+e)/5);
+		s.close();
 	}
 
 }
