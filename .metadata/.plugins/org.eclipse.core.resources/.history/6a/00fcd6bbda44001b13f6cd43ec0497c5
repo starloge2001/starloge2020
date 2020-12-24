@@ -1,0 +1,16 @@
+
+public class Ex6 {
+
+	public static void main(String[] args) {
+		int a[][]=new int[8][9];
+		for (int i =0; i<8; i++) {
+			for(int j=0;j<9;j++) {
+				a[i][j]=(i+2)*(j+1);
+				System.out.printf("%d x %d = %d\t",i+2,j+1,a[i][j]);
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

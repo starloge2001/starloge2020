@@ -1,0 +1,21 @@
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+		int arr[][]= {{1,10},{2,20},{3,30},{4,40},{5,50},{6,60},{7,70},{8,80},{9,90}};
+		for(int i=0;i<3;i++) {
+			
+				System.out.print(arr[i][0]+arr[i][1]+" ");
+		}
+		System.out.println();
+		for (int i=3;i<6;i++) {
+				System.out.print(arr[i][0]+arr[i][1]+" ");
+		}
+			System.out.println();
+		for(int i=6;i<9;i++) {
+				System.out.print(arr[i][0]+arr[i][1]+" ");
+		}
+	}
+}
+
+
