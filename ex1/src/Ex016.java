@@ -8,9 +8,17 @@ public class Ex016 {
 		System.out.println("---------------------");
 		System.out.println("간단한 로또 프로그램 v1.0");
 		System.out.println("---------------------");
-		for (int n = 0; n < 6;n++) {
-			int num = rand.nextInt(45);
-			System.out.print(num + "  ");
+		int[] n = new int[6];
+		for (int i = 0; i < 6;i++) {
+			n[i] = rand.nextInt(45);
+			for (int j=0;j<i;j++) {
+				if (n[j]==n[i]) {
+					i--;
+				}
+			}
+		}
+		for (int i = 0; i < n.length; i++) {
+			System.out.print(n[i] + "  ");
 		}
 	}
 
