@@ -21,6 +21,7 @@ public class Ex1 {
 			}
 		}
 		System.out.printf("최대값은 %d이고 최소값은 %d이다.",max,min);
+		s.close();
 	}
 
 }
