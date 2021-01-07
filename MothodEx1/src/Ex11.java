@@ -40,7 +40,7 @@ public class Ex11 {
 		int[][] a = new int[5][3];
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a[i].length; j++) {
-				a[i][j]=(int)((Math.random())*100)+1;
+				a[i][j]=(int)((Math.random())*101);
 			}
 		}
 		return a;
