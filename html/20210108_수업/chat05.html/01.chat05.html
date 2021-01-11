@@ -112,6 +112,40 @@
             background: white;
             color: black;
         }
+        .item
+        {
+            overflow: hidden;
+            padding: 10px;
+            border: 1px solid black;
+            border-top: none;
+        }
+        .thumbnail
+        {
+            float: left;
+        }
+        .description
+        {
+            float: left;
+            margin-left: 10px;
+        }
+        .description>strong
+        {
+            display: block;
+            width: 120px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        #main_footer
+        {
+            width: 960px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
     </style>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
@@ -164,22 +198,105 @@
             </section>
             <div class="tap_item">
                 <ul>
-                    <li><a href="#">01</a></li>
-                    <li><a href="#">02</a></li>
-                    <li><a href="#">03</a></li>
-                    <li><a href="#">04</a></li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 audio sadgasghfdaxc</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 as</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 df</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 gh</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="tap_item">
                 <ul>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 audio</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 1</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 2</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 3</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </aside>
     </div>
-    <footer></footer>
+    <footer id="main_footer">
+        <h3>Lorem, ipsum dolor.</h3>
+        <address>Website Layout Basic</address>
+    </footer>
 </body>
 </html>
