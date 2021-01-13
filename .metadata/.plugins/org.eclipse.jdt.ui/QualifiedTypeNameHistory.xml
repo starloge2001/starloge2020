@@ -11,12 +11,16 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="com.sun.source.tree.WhileLoopTree"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.shared.ContiguousSpace"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="sun.java2d.opengl.WGLSurfaceData.WGLVSyncOffScreenSurfaceData"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.YHC.ClassEx210113.Student"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.YHC.carApp.customer.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="SingleTest"/>
+    <fullyQualifiedTypeName name="com.YHC.carApp.car.Car"/>
 </qualifiedTypeNameHistroy>

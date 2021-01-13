@@ -11,7 +11,12 @@ public class Car {
 		color = "블랙";
 		money = "사천만원";
 		model = "K7";
-		showCarInfo();
+	}
+	public Car(String model, String manufacturer, String color, String money) {
+		this.manufacturer=manufacturer;
+		this.color=color;
+		this.money=money;
+		this.model=model;
 	}
 
 	public String getManufacturer() {
@@ -47,9 +52,10 @@ public class Car {
 	}
 	public void showCarInfo() {
 		System.out.println("제조사	: " + manufacturer);
-		System.out.println("색상		: " + color);
-		System.out.println("가격		: " + money);
+		System.out.println("색상	: " + color);
+		System.out.println("가격	: " + money);
 		System.out.println("모델명	: " + model);
 		System.out.println("대리점명	: " + JIJUM);
+		System.out.println("-----------------------------");
 	}
 }

@@ -10,7 +10,6 @@ public class TestArray {
 			sum=sum+arr[i];
 		}
 		ave=sum/arr.length;
-		Show();
 	}
 	public int getSum() {
 		return sum;
