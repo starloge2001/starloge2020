@@ -23,7 +23,7 @@ public class Ex034 {
 			}
 			System.out.println(sum);
 		}				
-		
+		s.close();
 	}
 
 }
