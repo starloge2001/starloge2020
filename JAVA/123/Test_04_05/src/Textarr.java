@@ -43,7 +43,7 @@ public class Textarr {
 			}
 			count=0;
 		}
-		
+		s.close();
 	}
 	
 

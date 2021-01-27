@@ -83,7 +83,7 @@ public class Text {
 				System.out.println("ㅣ");
 			}
 		}	
-		
+		s.close();
 		
 		
 	}
