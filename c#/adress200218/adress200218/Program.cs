@@ -100,7 +100,9 @@ namespace adress200218
             Console.WriteLine("2.주소록 정보 보기");
             Console.WriteLine("3.랜덤 주소록 정보 추가");
             Console.WriteLine("4.주소록 삭제");
-            Console.WriteLine("5.종료");
+            Console.WriteLine("5.주소록 수정");
+            Console.WriteLine("6.주소록 전체 삭제");
+            Console.WriteLine("7.종료");
             Console.WriteLine("-------------------------------");
             Console.Write("메뉴 선택: ");
             int menu = int.Parse(Console.ReadLine());
