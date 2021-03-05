@@ -27,8 +27,8 @@ public class JdbcTest {
 	static String jdbcDriver = "com.mysql.cj.jdbc.Driver";
 	static String dbUrl = "jdbc:mysql://localhost/" + DBNAME + "?autoReconnect=true&serverTimezone=UTC";
 	static String st = "t_user";
-	
 	public static void main(String[] args) {
+		
 		Scanner s = new Scanner(System.in);
 		connectDB();
 		while(true) {
@@ -43,6 +43,7 @@ public class JdbcTest {
 				selectTable(s);
 				break;
 			case ADD_DATA:
+				insertDB(s);
 				break;
 			case RANDOM_ADD_DATA:
 				break;
@@ -66,11 +67,34 @@ public class JdbcTest {
 		
 	}
 	
+	public static void  randDB() {
+		
+	}
+	
+	public static void insertDB(Scanner s) {
+//		String query = String.format("insert into t_user values"+"(100, '홍길동',100,'hong@naver.com','010-1234-1234')");
+		System.out.print("이름을 입력하세요 : ");
+		String name = s.next();
+		System.out.print("나이를 입력하세요 : ");
+		int age = s.nextInt();
+		System.out.print("email을 입력하세요 : ");
+		String email = s.next();
+		System.out.print("전화번호를 입력하세요 : ");
+		String tel = s.next();
+		String query2 =  String.format("insert into "+st+"(user_nm,user_age,email,user_phone) values('%s','%d','%s','%s')",name,age,email,tel);
+		
+		try {
+			state.executeUpdate(query2);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public static void createTable(Scanner s) {
 		System.out.print("생성할 테이블 : ");
 		String ct = s.next();
 		System.out.println("테이블 생성");
-		String query = "create table "+ ct +"("+"id INT(10) NOT NULL AUTO_INCREMENT,"+"name VARCHAR(10) NOT NULL,"+ "age INT(3) NOT NULL,"+"tel VARCHAR(20) NOT NULL,"+"PRIMARY KEY(id))";
+		String query = "create table "+ ct +"("+"id INT(10) NOT NULL AUTO_INCREMENT,"+"name VARCHAR(10) NOT NULL,"+ "age INT(3) NOT NULL,"+"email VARCHAR(20) NOT NULL,"+"tel VARCHAR(20) NOT NULL,"+"PRIMARY KEY(id))";
 		try {
 			state.executeUpdate(query);
 		} catch (SQLException e) {
