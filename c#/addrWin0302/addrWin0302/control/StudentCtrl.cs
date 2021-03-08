@@ -1,9 +1,11 @@
 ﻿using adressTest0218.util;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace adressTest0218.control
 {
@@ -74,6 +76,7 @@ namespace adressTest0218.control
         public void delItemAll()
         {
             addrList.Clear();
+            MessageBox.Show("모두 삭제 하였습니다.");
         }
 
         public void randData(int count)
@@ -93,5 +96,8 @@ namespace adressTest0218.control
         {
 
         }
+
+
+
     }
 }

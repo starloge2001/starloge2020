@@ -40,12 +40,12 @@ namespace addrWin0302.ui
             this.list_addr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.list_email = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.gridView1 = new Sunny.UI.UIDataGridView();
+            this.viewExit = new Sunny.UI.UIImageButton();
             this.grid_count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grid_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grid_tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grid_address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grid_email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.viewExit = new Sunny.UI.UIImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.viewExit)).BeginInit();
             this.SuspendLayout();
@@ -132,6 +132,20 @@ namespace addrWin0302.ui
             this.gridView1.Size = new System.Drawing.Size(574, 138);
             this.gridView1.TabIndex = 1;
             // 
+            // viewExit
+            // 
+            this.viewExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.viewExit.Image = ((System.Drawing.Image)(resources.GetObject("viewExit.Image")));
+            this.viewExit.Location = new System.Drawing.Point(231, 377);
+            this.viewExit.Name = "viewExit";
+            this.viewExit.Size = new System.Drawing.Size(117, 55);
+            this.viewExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.viewExit.TabIndex = 2;
+            this.viewExit.TabStop = false;
+            this.viewExit.Text = null;
+            this.viewExit.Click += new System.EventHandler(this.viewExit_Click);
+            // 
             // grid_count
             // 
             this.grid_count.HeaderText = "번 호";
@@ -152,25 +166,12 @@ namespace addrWin0302.ui
             // 
             this.grid_address.HeaderText = "주 소";
             this.grid_address.Name = "grid_address";
+            this.grid_address.Width = 160;
             // 
             // grid_email
             // 
             this.grid_email.HeaderText = "email";
             this.grid_email.Name = "grid_email";
-            // 
-            // viewExit
-            // 
-            this.viewExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.viewExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.viewExit.Image = ((System.Drawing.Image)(resources.GetObject("viewExit.Image")));
-            this.viewExit.Location = new System.Drawing.Point(231, 377);
-            this.viewExit.Name = "viewExit";
-            this.viewExit.Size = new System.Drawing.Size(117, 55);
-            this.viewExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.viewExit.TabIndex = 2;
-            this.viewExit.TabStop = false;
-            this.viewExit.Text = null;
-            this.viewExit.Click += new System.EventHandler(this.viewExit_Click);
             // 
             // Viewform
             // 

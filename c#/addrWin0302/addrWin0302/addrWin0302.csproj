@@ -64,6 +64,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ui\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Update2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Update2.Designer.cs">
+      <DependentUpon>Update2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ui\Addform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     </Compile>
     <Compile Include="control\StudentCtrl.cs" />
     <Compile Include="model\Student.cs" />
+    <Compile Include="ui\Delform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Delform.Designer.cs">
+      <DependentUpon>Delform.cs</DependentUpon>
+    </Compile>
     <Compile Include="ui\Mainform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,8 +106,17 @@
     </Compile>
     <Compile Include="Util\RandData.cs" />
     <Compile Include="view\MyMenu.cs" />
+    <EmbeddedResource Include="ui\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Update2.resx">
+      <DependentUpon>Update2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ui\Addform.resx">
       <DependentUpon>Addform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Delform.resx">
+      <DependentUpon>Delform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\Mainform.resx">
       <DependentUpon>Mainform.cs</DependentUpon>

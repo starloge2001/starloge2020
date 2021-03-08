@@ -42,7 +42,7 @@ namespace addrWin0302
 
         private void addrDel_Click(object sender, EventArgs e)
         {
-            sc.delItem(Console.ReadLine());
+            new Delform(sc).ShowDialog();
         }
 
         private void addrView_Click(object sender, EventArgs e)
@@ -54,6 +54,7 @@ namespace addrWin0302
         private void addrAllDel_Click(object sender, EventArgs e)
         {
             sc.delItemAll();
+            
         }
 
         private void addrAddRand_Click(object sender, EventArgs e)
@@ -68,7 +69,7 @@ namespace addrWin0302
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {
-            sc.updateItem();
+            new Update(sc).ShowDialog();
         }
         private string myinputBox(string title, string body, string prompt)
         {

@@ -1,7 +1,7 @@
 ﻿
 namespace addrWin0302
 {
-    partial class Addform
+    partial class Update2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace addrWin0302
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Addform));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Update2));
             this.uiSymbolLabel1 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel2 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel3 = new Sunny.UI.UISymbolLabel();
@@ -191,7 +191,7 @@ namespace addrWin0302
             this.uiSymbolLabel7.Symbol = 62141;
             this.uiSymbolLabel7.SymbolColor = System.Drawing.Color.White;
             this.uiSymbolLabel7.TabIndex = 10;
-            this.uiSymbolLabel7.Text = "주소록 추가";
+            this.uiSymbolLabel7.Text = "주소록 수정";
             // 
             // addExit
             // 
@@ -207,7 +207,7 @@ namespace addrWin0302
             this.addExit.Text = null;
             this.addExit.Click += new System.EventHandler(this.addExit_Click);
             // 
-            // Addform
+            // Update2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,8 +223,9 @@ namespace addrWin0302
             this.Controls.Add(this.uiSymbolLabel3);
             this.Controls.Add(this.uiSymbolLabel2);
             this.Controls.Add(this.uiSymbolLabel1);
-            this.Name = "Addform";
+            this.Name = "Update2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Load += new System.EventHandler(this.Update2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.addExit)).EndInit();
             this.ResumeLayout(false);
 
