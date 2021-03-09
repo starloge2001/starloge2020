@@ -121,7 +121,7 @@ namespace addrWin0302.ui
             this.uiImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiImageButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.uiImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("uiImageButton2.Image")));
-            this.uiImageButton2.Location = new System.Drawing.Point(129, 259);
+            this.uiImageButton2.Location = new System.Drawing.Point(116, 259);
             this.uiImageButton2.Name = "uiImageButton2";
             this.uiImageButton2.Size = new System.Drawing.Size(78, 48);
             this.uiImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

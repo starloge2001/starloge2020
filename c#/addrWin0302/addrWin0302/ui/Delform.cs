@@ -75,6 +75,10 @@ namespace addrWin0302.ui
         private void uiImageButton2_Click(object sender, EventArgs e)
         {
             List<Student> scg = sc.getList();
+            if (scg.Count == 0)
+            {
+                return;
+            }
             int n = listView1.SelectedItems[0].Index;
             listView1.Items.RemoveAt(n);
             scg.RemoveAt(n);

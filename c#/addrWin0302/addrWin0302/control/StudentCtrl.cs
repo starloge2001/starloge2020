@@ -1,7 +1,9 @@
-﻿using adressTest0218.util;
+﻿using addrWin0302;
+using adressTest0218.util;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +17,9 @@ namespace adressTest0218.control
             new List<Student>();
         // Random r;
         RandData rand;
+
+        public Point Location { get; private set; }
+
         public List<Student> getList()
         {
             return addrList;
@@ -76,6 +81,9 @@ namespace adressTest0218.control
         public void delItemAll()
         {
             addrList.Clear();
+            /*Point parentPoint = main.Location;
+            string input = Microsoft.VisualBasic.Interaction.InputBox("삭제 확인", "삭", "??힌트", parentPoint.X, parentPoint.Y);
+            Microsoft.VisualBasic.Interaction.*/
             MessageBox.Show("모두 삭제 하였습니다.");
         }
 

@@ -75,11 +75,13 @@ namespace addrWin0302.ui
 
         private void uiImageButton2_Click(object sender, EventArgs e)
         {
+            if (listView1.SelectedItems.Count == 0)
+            {
+                return;
+            }
             int n = listView1.SelectedItems[0].Index;
-            Update2 aa = new Update2(sc, n, this);
+            Update2 aa = new Update2(sc, n, this, listView1.Items);
             aa.ShowDialog();
-
-
         }
     }
 }

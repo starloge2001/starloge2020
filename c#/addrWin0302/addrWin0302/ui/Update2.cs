@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.ListView;
 
 namespace addrWin0302
 {
@@ -21,12 +22,14 @@ namespace addrWin0302
         StudentCtrl sc;
         int n;
         Update parent;
-        public Update2(StudentCtrl sc,int n, Update parent)
+        ListViewItemCollection items;
+        public Update2(StudentCtrl sc,int n, Update parent, ListViewItemCollection items)
         {
             InitializeComponent();
             this.sc = sc;
             this.n = n;
             this.parent = parent;
+            this.items = items;
         }
 
       
@@ -38,7 +41,8 @@ namespace addrWin0302
             sc.getList()[n].Tel = TextTel.Text;
             sc.getList()[n].Address = TextAddress.Text;
             sc.getList()[n].Email = TextEmail.Text;
-            parent.Close();
+            items.Clear();
+            parent.initListView();
             this.Close();                   
         }
 
