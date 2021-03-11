@@ -13,6 +13,10 @@ public class Menu {
 	public static final int DEL_DATA =8;
 	public static final int MAIN_EXIT =9;
 	public static String st = "t_user";
+	public static final int NAME = 1;
+	public static final int AGE = 2;
+	public static final int EMAIL = 3;
+	public static final int TEL = 4;
 	public int menu(Scanner s) {
 		
 		System.out.println("-----------------------------");
@@ -27,6 +31,18 @@ public class Menu {
 		System.out.println("7. 데이터 수정");
 		System.out.println("8. 데이터 삭제");
 		System.out.println("9. 프로그램 종료");		
+		System.out.println("-----------------------------");
+		System.out.print("메뉴 선택 : ");
+		return s.nextInt();
+	}
+	public int menu2(Scanner s) {
+		System.out.println("-----------------------------");
+		System.out.println("      MySQL DB 관리 v1.0");
+		System.out.println("-----------------------------");
+		System.out.println("1. 이름 수정");
+		System.out.println("2. 나이 수정");
+		System.out.println("3. 이메일 수정");
+		System.out.println("4. 전화번호 수정");
 		System.out.println("-----------------------------");
 		System.out.print("메뉴 선택 : ");
 		return s.nextInt();

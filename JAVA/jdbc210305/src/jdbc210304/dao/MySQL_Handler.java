@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
+import jdbc210304.AddrbookMain;
 import jdbc210304.model.Addrbook;
 
 public class MySQL_Handler {
@@ -59,10 +60,17 @@ public class MySQL_Handler {
 		String tel = s.next();
 
 		return new Addrbook(name, age, email, tel);	
-	
+			
 	}
+	
+	
+	public Addrbook addrDB() {
+		return new Addrbook(AddrbookMain.rd.getName(), AddrbookMain.rd.getAge(), AddrbookMain.rd.getEmail(), AddrbookMain.rd.getTel());
+	}
+	
+	
 	public void insertDB(Addrbook ad,String st) {
-		String query2 =  String.format("insert into "+st+"(user_nm,user_age,email,user_phone) values('%s','%d','%s','%s')",ad.name,ad.age,ad.tel,ad.email);
+		String query2 =  String.format("insert into "+st+"(user_nm,user_age,email,user_phone) values('%s','%d','%s','%s')",ad.name,ad.age,ad.email,ad.tel);
 		
 		try {
 			state.executeUpdate(query2);
@@ -70,6 +78,7 @@ public class MySQL_Handler {
 			e.printStackTrace();
 		}
 	}
+	
 	public void createTable(Scanner s) {
 		System.out.print("생성할 테이블 : ");
 		String ct = s.next();
@@ -95,6 +104,72 @@ public class MySQL_Handler {
 //			e.printStackTrace();
 		}
 	}
+	public void delData(Scanner s,String st) {
+		System.out.print("삭제할 데이터 이름: ");
+		String dd = s.next();
+		String query = "DELETE FROM "+st+" WHERE user_nm = "+"'"+dd+"'";
+		try {
+			state.executeLargeUpdate(query);
+		} catch (SQLException e) {
+			//e.printStackTrace();
+			System.out.println("삭제할 데이터가 없습니다.");
+		}
+		
+	}
+	public void upDatename(Scanner s,String st){
+		System.out.print("수정하려는 이름을 입력해주세요 : ");
+		String a = s.next();
+		System.out.print("이름 수정값을 입력해주세요 : ");
+		String b = s.next();
+		String query = "UPDATE "+st+" SET user_nm = "+"'"+b+"'"+" where user_nm = '"+a+"'";
+		try {
+			state.executeLargeUpdate(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	public void upDateage(Scanner s,String st){
+		System.out.print("수정하려는 나이를 입력해주세요 : ");
+		int a = s.nextInt();
+		System.out.print("나이 수정값을 입력해주세요 : ");
+		int b = s.nextInt();
+		String query = "UPDATE "+st+" SET user_age = "+"'"+b+"'"+" where user_age = '"+a+"'";
+		try {
+			state.executeLargeUpdate(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public void upDatetel(Scanner s,String st){
+		System.out.print("수정하려는 전화번호를 입력해주세요 : ");
+		String a = s.next();
+		System.out.print("전화번호 수정값을 입력해주세요 : ");
+		String b = s.next();
+		String query = "UPDATE "+st+" SET user_phone = "+"'"+b+"'"+" where user_phone = '"+a+"'";
+		try {
+			state.executeLargeUpdate(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public void upDateemail(Scanner s,String st){
+		System.out.print("수정하려는 이메일을 입력해주세요 : ");
+		String a = s.next();
+		System.out.print("이메일 수정값을 입력해주세요 : ");
+		String b = s.next();
+		String query = "UPDATE "+st+" SET email = "+"'"+b+"'"+" where email = '"+a+"'";
+		try {
+			state.executeLargeUpdate(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	public static String st="t_user";
 	public String selectTable(Scanner s) {
 		System.out.print("선택할 테이블 : ");
@@ -126,5 +201,5 @@ public class MySQL_Handler {
 		}
 	}
 
-
+	
 }
