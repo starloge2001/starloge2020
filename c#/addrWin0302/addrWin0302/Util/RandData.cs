@@ -21,7 +21,7 @@ namespace adressTest0218.util
                 "kim@naver.com", "lee@naver.com",
                 "park@naver.com", "choi@naver.com"};
 
-        Random r;
+        readonly Random r;
 
         public RandData(Random r)
         {
@@ -59,7 +59,7 @@ namespace adressTest0218.util
             {
                 rs.Append(rdata[(int)(r.NextDouble() * rdata.Length)]);
             }
-            //Console.WriteLine("id: " + rs.ToString());
+            
             return rs.ToString();
         }
     }

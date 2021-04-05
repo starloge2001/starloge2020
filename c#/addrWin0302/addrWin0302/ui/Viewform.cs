@@ -24,13 +24,7 @@ namespace addrWin0302.ui
 
         private void initListView()
         {
-            /*string[] data = { "1", "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" };
-            listView1.Items.Add(new ListViewItem(data));*/
-
-            /* for (int i = 0; i < 50; i++)
-             {
-                 listView1.Items.Add(new ListViewItem(new string[] { (i+1+""), "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" }));
-             }*/
+           
             List<Student> scg = sc.getList();
             for (int i = 0; i < scg.Count; i++)
             {
@@ -70,13 +64,7 @@ namespace addrWin0302.ui
         }
         private void initGridView()
         {
-           /* for (int i = 0; i < 50; i++)
-            {
-                gridView1.Rows.Add(new string[] { (i + 1 + ""), "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" });
-            }
-            int count = gridView1.Rows.Count - 1;
-            gridView1.FirstDisplayedScrollingRowIndex = count;
-            gridView1.CurrentCell = gridView1.Rows[count - 1].Cells[0];*/
+           
             List<Student> scg = sc.getList();
             for (int i = 0; i < scg.Count; i++)
             {

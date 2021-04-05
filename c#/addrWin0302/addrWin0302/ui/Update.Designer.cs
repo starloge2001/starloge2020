@@ -75,6 +75,7 @@ namespace addrWin0302.ui
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.uiImageButton2_Click);
             // 
             // list_count
             // 

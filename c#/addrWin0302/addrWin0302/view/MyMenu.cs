@@ -50,17 +50,7 @@ namespace adressTest0218.view
             }
 
             return menu;
-            /* int menu;
-             Boolean isParse =
-                 int.TryParse(Console.ReadLine(), out menu);
-
-             if (isParse)
-                 return menu;
-             else
-             {
-                 Console.WriteLine("잘못된 입력이니 다시 입력하세요");
-                 return -1;
-             }*/
+           
 
         }
 
@@ -70,8 +60,7 @@ namespace adressTest0218.view
             Console.WriteLine("## 삭제 메뉴 ##");
             Console.WriteLine("-----------------");
             Console.Write("삭제할 이름: ");
-           // string name = Console.ReadLine();
-           // return name;
+           
 
             return Console.ReadLine();
         }

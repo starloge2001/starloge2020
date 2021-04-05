@@ -48,7 +48,7 @@ namespace addrWin0302
         private void addrView_Click(object sender, EventArgs e)
         {
             new Viewform(sc).ShowDialog();
-            //sc.viewItem();
+            
         }
 
         private void addrAllDel_Click(object sender, EventArgs e)

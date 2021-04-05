@@ -29,13 +29,7 @@ namespace addrWin0302.ui
         }
         private void initListView()
         {
-            /*string[] data = { "1", "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" };
-            listView1.Items.Add(new ListViewItem(data));*/
-
-            /* for (int i = 0; i < 50; i++)
-             {
-                 listView1.Items.Add(new ListViewItem(new string[] { (i+1+""), "홍길동", "010-1234-1234", "조선 한양 홍대감댁", "hong@naver.com" }));
-             }*/
+           
             List<Student> scg = sc.getList();
             for (int i = 0; i < scg.Count; i++)
             {

@@ -1,0 +1,7 @@
+D:\blacksheep\starloge2020\c#\test20210405\test2\bin\Debug\test2.exe.config
+D:\blacksheep\starloge2020\c#\test20210405\test2\bin\Debug\test2.exe
+D:\blacksheep\starloge2020\c#\test20210405\test2\bin\Debug\test2.pdb
+D:\blacksheep\starloge2020\c#\test20210405\test2\obj\Debug\test2.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\test20210405\test2\obj\Debug\test2.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\test20210405\test2\obj\Debug\test2.exe
+D:\blacksheep\starloge2020\c#\test20210405\test2\obj\Debug\test2.pdb

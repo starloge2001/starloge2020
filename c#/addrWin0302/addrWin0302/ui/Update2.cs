@@ -37,10 +37,10 @@ namespace addrWin0302
         private void uiSymbolLabel5_Click(object sender, EventArgs e)
         {
             List<Student> scg = sc.getList();
-            sc.getList()[n].Name = TextName.Text;
-            sc.getList()[n].Tel = TextTel.Text;
-            sc.getList()[n].Address = TextAddress.Text;
-            sc.getList()[n].Email = TextEmail.Text;
+            scg[n].Name = TextName.Text;
+            scg[n].Tel = TextTel.Text;
+            scg[n].Address = TextAddress.Text;
+            scg[n].Email = TextEmail.Text;
             items.Clear();
             parent.initListView();
             this.Close();                   
@@ -54,10 +54,10 @@ namespace addrWin0302
         private void Update2_Load(object sender, EventArgs e)
         {
             List<Student> scg = sc.getList();
-            TextName.Text = sc.getList()[n].Name;
-            TextTel.Text = sc.getList()[n].Tel;
-            TextAddress.Text = sc.getList()[n].Address;
-            TextEmail.Text = sc.getList()[n].Email;
+            TextName.Text = scg[n].Name;
+            TextTel.Text = scg[n].Tel;
+            TextAddress.Text = scg[n].Address;
+            TextEmail.Text = scg[n].Email;
         }
     }
 }

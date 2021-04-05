@@ -5,7 +5,6 @@ D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\bin\Debug\CxFlatUI.dll
 D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\bin\Debug\MaterialSkin.dll
 D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\bin\Debug\SunnyUI.Common.dll
 D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\bin\Debug\SunnyUI.dll
-D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
 D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\obj\Debug\addrWin0302.ui.Update.resources
 D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\obj\Debug\addrWin0302.Update2.resources
 D:\blacksheep\starloge2020\c#\addrWin0302\addrWin0302\obj\Debug\addrWin0302.Addform.resources

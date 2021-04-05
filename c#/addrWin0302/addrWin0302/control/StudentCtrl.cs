@@ -13,10 +13,10 @@ namespace adressTest0218.control
 {
     class StudentCtrl
     {
-          List<Student> addrList =
-            new List<Student>();
-        // Random r;
-        RandData rand;
+        readonly List<Student> addrList =
+          new List<Student>();
+
+        readonly RandData rand;
 
         public Point Location { get; private set; }
 
@@ -27,7 +27,7 @@ namespace adressTest0218.control
 
         public StudentCtrl()
         {
-            // r = new Random();
+
             rand = new RandData(new Random());
         }
 
@@ -44,8 +44,8 @@ namespace adressTest0218.control
             string address = Console.ReadLine();
             Console.Write("이메일: ");
             string email = Console.ReadLine();
-            string id=rand.getId();
-            addrList.Add(new Student(id,name, tel, address, email));
+            string id = rand.getId();
+            addrList.Add(new Student(id, name, tel, address, email));
             Console.WriteLine("정보가 정상적으로 입력되었습니다.");
         }
 
@@ -65,7 +65,7 @@ namespace adressTest0218.control
 
 
 
-        
+
 
         public void delItem(string name)
         {
@@ -75,37 +75,28 @@ namespace adressTest0218.control
                 {
                     addrList.RemoveAt(i--);
                 }
-            }   
+            }
         }
 
         public void delItemAll()
         {
             addrList.Clear();
-            /*Point parentPoint = main.Location;
-            string input = Microsoft.VisualBasic.Interaction.InputBox("삭제 확인", "삭", "??힌트", parentPoint.X, parentPoint.Y);
-            Microsoft.VisualBasic.Interaction.*/
+
             MessageBox.Show("모두 삭제 하였습니다.");
         }
 
         public void randData(int count)
         {
-            
+
             for (int i = 0; i < count; i++)
             {
-                addrList.Add(new Student(rand.getId(), 
-                    rand.getName(), 
-                    rand.getTel(), 
-                    rand.getAddr(), 
+                addrList.Add(new Student(rand.getId(),
+                    rand.getName(),
+                    rand.getTel(),
+                    rand.getAddr(),
                     rand.getEmail()));
             }
         }
-
-        public void updateItem()
-        {
-
-        }
-
-
-
+            
     }
 }
