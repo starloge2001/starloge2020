@@ -57,6 +57,31 @@ namespace test2
             uint c = uint.MaxValue;
             Console.WriteLine(c);
 
+            int example = 100;
+            Console.WriteLine(example++);//100
+            Console.WriteLine(++example);//102
+
+            int exex = 100;
+            Console.WriteLine(exex);
+            exex = exex + 1;
+            
+            exex = exex + 1;
+            Console.WriteLine(exex);
+
+            int conclusion = 100;
+            //++을 무조건 뒤에 붙이고 그냥 두 줄로 나눠서 쓰기
+            conclusion++;
+            Console.WriteLine(conclusion);
+            conclusion++;
+            Console.WriteLine(conclusion);
+
+            string input = Console.ReadLine();
+            Console.WriteLine("안녕 나는 " + input + "이야");
+            int input2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("내 키는 " + input2 + "cm야");
+            int number = int.Parse(Console.ReadLine());
+            double num = double.Parse(Console.ReadLine());
+            Console.WriteLine(number/num);
 
         }
     }
