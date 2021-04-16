@@ -22,5 +22,10 @@ namespace BaseballEx
             new Form1().Show();
             this.Visible = false;
         }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

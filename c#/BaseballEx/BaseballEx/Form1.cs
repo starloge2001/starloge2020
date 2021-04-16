@@ -258,7 +258,10 @@ namespace BaseballEx
             textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1);
         }
 
-        
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
     
 }
