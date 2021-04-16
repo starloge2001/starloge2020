@@ -1,0 +1,9 @@
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\obj\Debug\chapter05_2.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\obj\Debug\StudentMeniger.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\obj\Debug\StudentMeniger.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\bin\Debug\chapter05_2.exe.config
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\bin\Debug\chapter05_2.exe
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\bin\Debug\chapter05_2.pdb
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\obj\Debug\chapter05_2.exe
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\obj\Debug\chapter05_2.pdb
+D:\blacksheep\starloge2020\c#\210412winformex\chapter05_2\obj\Debug\StudentMeniger.csprojAssemblyReference.cache

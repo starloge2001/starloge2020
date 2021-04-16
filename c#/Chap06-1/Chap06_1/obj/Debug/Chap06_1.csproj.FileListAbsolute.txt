@@ -1,0 +1,9 @@
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\bin\Debug\Chap06_1.exe.config
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\bin\Debug\Chap06_1.exe
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\bin\Debug\Chap06_1.pdb
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\obj\Debug\Chap06_1.Form1.resources
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\obj\Debug\Chap06_1.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\obj\Debug\Chap06_1.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\obj\Debug\Chap06_1.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\obj\Debug\Chap06_1.exe
+D:\blacksheep\starloge2020\c#\Chap06\Chap06_1\obj\Debug\Chap06_1.pdb

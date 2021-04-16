@@ -1,0 +1,10 @@
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\bin\Debug\Ex210412_2.exe.config
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\bin\Debug\Ex210412_2.exe
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\bin\Debug\Ex210412_2.pdb
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.Form1.resources
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.exe
+D:\blacksheep\starloge2020\c#\Ex210412\Ex210412_2\obj\Debug\Ex210412_2.pdb

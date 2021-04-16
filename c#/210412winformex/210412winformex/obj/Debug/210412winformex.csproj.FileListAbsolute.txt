@@ -1,0 +1,10 @@
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\bin\Debug\210412winformex.exe.config
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\bin\Debug\210412winformex.exe
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\bin\Debug\210412winformex.pdb
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\210412winformex.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\_210412winformex.Form1.resources
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\_210412winformex.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\210412winformex.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\210412winformex.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\210412winformex.exe
+D:\blacksheep\starloge2020\c#\210412winformex\210412winformex\obj\Debug\210412winformex.pdb

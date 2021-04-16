@@ -1,0 +1,10 @@
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\bin\Debug\Maniging_Car_Pro.exe.config
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\bin\Debug\Maniging_Car_Pro.exe
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\bin\Debug\Maniging_Car_Pro.pdb
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.Form1.resources
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.exe
+D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\obj\Debug\Maniging_Car_Pro.pdb

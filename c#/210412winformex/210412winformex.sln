@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "210412winformex", "210412winformex\210412winformex.csproj", "{A183009E-C827-4F17-A10E-B5053A56BDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMeniger", "chapter05_2\StudentMeniger.csproj", "{A400D34E-3565-4AA5-AF2F-3D6634E2959F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A183009E-C827-4F17-A10E-B5053A56BDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A183009E-C827-4F17-A10E-B5053A56BDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A183009E-C827-4F17-A10E-B5053A56BDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A183009E-C827-4F17-A10E-B5053A56BDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A400D34E-3565-4AA5-AF2F-3D6634E2959F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A400D34E-3565-4AA5-AF2F-3D6634E2959F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A400D34E-3565-4AA5-AF2F-3D6634E2959F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A400D34E-3565-4AA5-AF2F-3D6634E2959F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4AA790C-692B-480A-B04E-A0D70A78357D}
+	EndGlobalSection
+EndGlobal

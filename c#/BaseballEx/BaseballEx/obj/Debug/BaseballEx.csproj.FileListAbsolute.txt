@@ -1,0 +1,13 @@
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\bin\Debug\BaseballEx.exe.config
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\bin\Debug\BaseballEx.exe
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\bin\Debug\BaseballEx.pdb
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.Form1.resources
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.Form2.resources
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.Form3.resources
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.Form4.resources
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.exe
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.pdb
+D:\blacksheep\starloge2020\c#\BaseballEx\BaseballEx\obj\Debug\BaseballEx.csprojAssemblyReference.cache

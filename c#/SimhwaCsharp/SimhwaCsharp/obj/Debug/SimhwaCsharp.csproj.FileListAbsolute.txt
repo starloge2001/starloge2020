@@ -1,0 +1,11 @@
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\bin\Debug\SimhwaCsharp.exe.config
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\bin\Debug\SimhwaCsharp.exe
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\bin\Debug\SimhwaCsharp.pdb
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.Form1.resources
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.Form2.resources
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.exe
+D:\blacksheep\starloge2020\c#\SimhwaCsharp\SimhwaCsharp\obj\Debug\SimhwaCsharp.pdb

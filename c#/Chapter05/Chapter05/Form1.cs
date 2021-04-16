@@ -59,6 +59,7 @@ namespace Chapter05
                         if (max1[i - 1] == count[j])
                         {
                             count[j] = 0;
+                            max1[i - 1] += 1;
                         }                      
                     }
                     
@@ -69,18 +70,20 @@ namespace Chapter05
                     }
                 }
             }
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = i; j < 5; j++)
                 {
-                    if (max[i] < max[j])
+                    if (max[i] > max[j+1])
                     {
                         int dummy = max[i];
-                        max[i] = max[j];
-                        max[j] = dummy;
+                        max[i] = max[j+1];
+                        max[j+1] = dummy;
                     }
                 }
             }
+
+            //Array.Sort(max);
             /* for (int i = 0; i < 6; i++)
              {
                  labelList[i].Text = count[i].ToString();
@@ -92,12 +95,7 @@ namespace Chapter05
             label_num4.Text = max[3].ToString();
             label_num5.Text = max[4].ToString();
             label_num6.Text = max[5].ToString();
-          /*  label1.Text= max1[0].ToString();
-            label2.Text= max1[1].ToString();
-            label3.Text= max1[2].ToString();
-            label4.Text= max1[3].ToString();
-            label5.Text= max1[4].ToString();
-            label6.Text= max1[5].ToString();*/
+          
         }
     }
 }

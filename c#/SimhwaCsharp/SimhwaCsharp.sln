@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimhwaCsharp", "SimhwaCsharp\SimhwaCsharp.csproj", "{9F0CD37A-D9BF-4EAE-B0A6-5F325E7ECEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateLamda", "DelegateLamda\DelegateLamda.csproj", "{04C74C94-EA7C-4F89-B24E-90DB5A0C716D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0CD37A-D9BF-4EAE-B0A6-5F325E7ECEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0CD37A-D9BF-4EAE-B0A6-5F325E7ECEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0CD37A-D9BF-4EAE-B0A6-5F325E7ECEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0CD37A-D9BF-4EAE-B0A6-5F325E7ECEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C74C94-EA7C-4F89-B24E-90DB5A0C716D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C74C94-EA7C-4F89-B24E-90DB5A0C716D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C74C94-EA7C-4F89-B24E-90DB5A0C716D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C74C94-EA7C-4F89-B24E-90DB5A0C716D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E3FEFD5-7638-4F0D-8392-5B2B13ABD083}
+	EndGlobalSection
+EndGlobal
