@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\bin\Debug\Recursionfuntion.exe.config
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\bin\Debug\Recursionfuntion.exe
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\bin\Debug\Recursionfuntion.pdb
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.Form1.resources
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.Properties.Resources.resources
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.exe
+C:\Users\KB\Desktop\20210415\Chap06\Recursionfuntion\obj\Debug\Recursionfuntion.pdb
