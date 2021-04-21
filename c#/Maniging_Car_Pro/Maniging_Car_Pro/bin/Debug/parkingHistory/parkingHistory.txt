@@ -419,3 +419,7 @@
    위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
    위치: System.IO.File.ReadAllText(String path)
    위치: Maniging_Car_Pro.Datamaniger.Load() 파일 D:\blacksheep\starloge2020\c#\Maniging_Car_Pro\Maniging_Car_Pro\Datamaniger.cs:줄 23
+[2021-04-19 10:27:22]주차 버튼 클릭
+[2021-04-19 11:12:22]출차 버튼 클릭
+[2021-04-19 11:12:24]주차공간 1에 57어3531차량 출차
+[2021-04-19 11:12:26]주차 버튼 클릭

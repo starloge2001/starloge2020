@@ -35,11 +35,7 @@ namespace BaseballEx
             Application.Exit();
         }
 
-        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-
-        }
+        
         //     for (int i = 0; i<form1.; i++)
         //{
 

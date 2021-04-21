@@ -16,7 +16,7 @@ namespace BaseballEx
     {
         Rank rank;
         Random r = new Random();
-        int[] one = new int[3];
+        int[] baseball = new int[3];
         List<string> mylist = new List<string>();
         public List<Rank> rankList = new List<Rank>();
         List<Rank> dummy = new List<Rank>();
@@ -45,10 +45,10 @@ namespace BaseballEx
             timer.Start();
             for (int i = 0; i < 3; i++)
             {
-                one[i] = r.Next(1, 9);
+                baseball[i] = r.Next(1, 9);
                 for (int j = 0; j < i; j++)
                 {
-                    if (one[i] == one[j])
+                    if (baseball[i] == baseball[j])
                     {
                         i--;
                     }
@@ -88,7 +88,7 @@ namespace BaseballEx
             }
             for (int i = 0; i < 3; i++)
             {
-                if (one[i] == Convert.ToInt32(textBox1.Text[i].ToString()))
+                if (baseball[i] == Convert.ToInt32(textBox1.Text[i].ToString()))
                 {
                     scount++;
                 }
@@ -99,7 +99,7 @@ namespace BaseballEx
                 {
                     if (i != j)
                     {
-                        if (one[i] == int.Parse(textBox1.Text[j].ToString()))
+                        if (baseball[i] == int.Parse(textBox1.Text[j].ToString()))
                         {
                             bcount++;
                         }
@@ -120,10 +120,10 @@ namespace BaseballEx
                 listBox1.Items.Clear();
                 for (int i = 0; i < 3; i++)
                 {
-                    one[i] = r.Next(1, 9);
+                    baseball[i] = r.Next(1, 9);
                     for (int j = 0; j < i; j++)
                     {
-                        if (one[i] == one[j])
+                        if (baseball[i] == baseball[j])
                         {
                             i--;
                         }
@@ -171,13 +171,6 @@ namespace BaseballEx
                 serializer.Serialize(ws, rankList);
                 ws.Close();
 
-
-                Stream rs = new FileStream("a.dat", FileMode.Open);
-                BinaryFormatter deserializer = new BinaryFormatter();
-                               
-                rankList = (List<Rank>)deserializer.Deserialize(rs);
-                rs.Close();
-                
                 new Form4(this).ShowDialog();
                 totalTime = 0;
                 count = 0;
@@ -192,10 +185,10 @@ namespace BaseballEx
                 listBox1.Items.Clear();
                 for (int i = 0; i < 3; i++)
                 {
-                    one[i] = r.Next(1, 9);
+                    baseball[i] = r.Next(1, 9);
                     for (int j = 0; j < i; j++)
                     {
-                        if (one[i] == one[j])
+                        if (baseball[i] == baseball[j])
                         {
                             i--;
                         }
