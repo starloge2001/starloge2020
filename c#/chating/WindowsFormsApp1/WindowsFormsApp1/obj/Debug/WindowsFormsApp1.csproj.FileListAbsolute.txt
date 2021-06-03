@@ -1,0 +1,11 @@
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChatServerForm.resources
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ClientForm.resources
+D:\blacksheep\starloge2020\c#\chating\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EnterID.resources
